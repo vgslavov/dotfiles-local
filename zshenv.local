@@ -1,0 +1,5 @@
+# load pyenv if available
+# (slows down vim and have to install Python versions with pyenv)
+#if which pyenv &>/dev/null ; then
+#    eval "$(pyenv init -)"
+#fi

@@ -1,0 +1,17 @@
+# recommended by brew doctor
+# (these are already included in PATH in the right location: before /usr/bin)
+#export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+# tex
+export TEXINPUTS=":/Users/vgs/tex/latex:/Users/vgs/tex/latex2e:/Users/vgs/tex/misc"
+export PATH="$HOME/bin:/usr/local/texlive/2011/bin/universal-darwin:$PATH"
+#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# antlr
+export CLASSPATH=".:/usr/local/lib/antlr-4.4-complete.jar:$CLASSPATH"
+#export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+#export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME="`/usr/libexec/java_home -v '1.7*'`"
+
+### Added by the Heroku Toolbelt
+#export PATH="/usr/local/heroku/bin:$PATH"

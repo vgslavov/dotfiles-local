@@ -1,0 +1,10 @@
+[user]
+    name = Vasil Slavov
+    email = vgslavov@umkc.edu
+[credential]
+    helper = osxkeychain
+[alias]
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[core]
+    editor = vi
