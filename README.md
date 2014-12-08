@@ -7,7 +7,15 @@ git clone https://github.com/vgslavov/dotfiles-local.git ~/dotfiles-local
 ```
 
 Install [Thoughtbot dotfiles](https://github.com/thoughtbot/dotfiles).
-Use Homebrew to install rcup. Use rcup to install the files. It will create
+
+On Mac OS X, use Homebrew to install rcm. For Ubuntu, use deb package:
+
+```
+wget https://thoughtbot.github.io/rcm/debs/rcm_1.2.3-1_all.deb
+sudo dpkg -i rcm_1.2.3-1_all.deb
+```
+
+Use rcup (from rcm) to install the files. It will create
 symlinks for both Thoughbot and local dotfiles.
 
 Either install [Thoughtbot laptop](https://github.com/thoughtbot/laptop) or
