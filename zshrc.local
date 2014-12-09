@@ -3,15 +3,28 @@
 #export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # tex
-export TEXINPUTS=":/Users/vgs/tex/latex:/Users/vgs/tex/latex2e:/Users/vgs/tex/misc"
+export TEXINPUTS=":$HOME/tex/latex:$HOME/tex/latex2e:$HOME/tex/misc"
 export PATH="$HOME/bin:/usr/local/texlive/2011/bin/universal-darwin:$PATH"
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # antlr
 export CLASSPATH=".:/usr/local/lib/antlr-4.4-complete.jar:$CLASSPATH"
+
 #export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 #export JAVA_HOME=$(/usr/libexec/java_home)
-export JAVA_HOME="`/usr/libexec/java_home -v '1.7*'`"
+
+# Mac OS X
+#export JAVA_HOME="`/usr/libexec/java_home -v '1.7*'`"
+# Ubuntu
+export JAVA_HOME="/usr/lib/jvm/default-java"
+
+#umask 002
+ulimit -c unlimited
+#ulimit -n 4096
+
+#export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/bdb/lib"
+export PATH="$PATH:$HOME/rdf3x-0.3.8-vsfgd/bin:$HOME/Jena/apache-jena-2.11.1/bin"
+export JENAROOT="$HOME/Jena/apache-jena-2.11.1"
 
 ### Added by the Heroku Toolbelt
 #export PATH="/usr/local/heroku/bin:$PATH"
