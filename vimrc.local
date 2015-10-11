@@ -6,8 +6,8 @@ set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
 set shiftround    " round indent to multiple of 'shiftwidth'
 set autoindent    " align the new line indent with the previous line
 set autochdir     " change cwd to file's dir
-set hlsearch      " highlight search results
 set clipboard=unnamed " for MacVim
+set spell spelllang=en_us
 
 " Enable spellchecking for LaTex files
 autocmd FileType tex setlocal spell
@@ -17,6 +17,20 @@ nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " correct Python 3 syntax
 " Ubuntu
-let g:syntastic_python_python_exec = '/usr/bin/python3'
+"let g:syntastic_python_python_exec = '/usr/bin/python3'
 " Mac OS X
-"let g:syntastic_python_python_exec = '/usr/local/bin/python3'
+let g:syntastic_python_python_exec = '/usr/local/bin/python3'
+
+" case insensitive
+set ignorecase
+" except when you use upper-case letters
+set smartcase
+" highlight search results
+set hlsearch
+
+" colorsheme
+set background=light
+colorscheme solarized
+
+" markdown
+"let g:vim_markdown_folding_disabled=1
