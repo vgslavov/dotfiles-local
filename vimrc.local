@@ -16,8 +16,6 @@ autocmd FileType tex setlocal spell
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " correct Python 3 syntax
-" Ubuntu
-"let g:syntastic_python_python_exec = '/usr/bin/python3'
 " Mac OS X
 let g:syntastic_python_python_exec = '/usr/local/bin/python3'
 
@@ -29,8 +27,9 @@ set smartcase
 set hlsearch
 
 " colorsheme
-set background=light
-colorscheme solarized
+"colorscheme github
+"set background=dark
+"colorscheme solarized
 
 " markdown
-"let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_folding_disabled=1

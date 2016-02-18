@@ -4,7 +4,18 @@
 [credential]
     helper = osxkeychain
 [alias]
+    br = branch
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-    lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    lg = log --oneline --decorate --all --graph
+    s = status -s
+    up = rebase
 [core]
-    editor = vi
+    editor = vim
+
+# from Mastering GitHub
+#[push]
+#  default = simple
+#[pull]
+#  rebase = true
+#[rerere]
+#  enabled = true

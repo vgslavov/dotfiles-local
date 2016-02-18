@@ -8,13 +8,13 @@ export PATH="$HOME/bin:/usr/local/texlive/2011/bin/universal-darwin:$PATH"
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # antlr
-export CLASSPATH=".:/usr/local/lib/antlr-4.4-complete.jar:$CLASSPATH"
+#export CLASSPATH=".:/usr/local/lib/antlr-4.4-complete.jar:$CLASSPATH"
 
 #export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 #export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Mac OS X
-export JAVA_HOME="`/usr/libexec/java_home -v '1.7*'`"
+#export JAVA_HOME="`/usr/libexec/java_home -v '1.7*'`"
 # Ubuntu
 #export JAVA_HOME="/usr/lib/jvm/default-java"
 
