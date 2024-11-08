@@ -1,3 +1,6 @@
+# Notes
+alias cdnotes="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Notes"
+
 # ssh
 alias aladdin="ssh -i ~/.ssh/umkc-cluster vsfgd@aladdin"
 alias jafar="ssh -i ~/.ssh/umkc-cluster vsfgd@jafar"
@@ -13,6 +16,8 @@ alias grun='java org.antlr.v4.runtime.misc.TestRig'
 
 #alias la="ls -aF"
 #alias ll="ls -alF"
+
+alias vi='vim'
 
 alias hln3.key="pbpaste | highlight -O rtf --line-numbers --font-size 20 --font Inconsolata --style zellner -j 3 --src-lang n3 | pbcopy"
 
